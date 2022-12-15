@@ -1,0 +1,30 @@
+.li-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'roboto';
+  width: 50%;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1px;
+  text-align: left;
+}
+.location {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.img {
+  width: 70%;
+  border-radius: 5px;
+}
+.img-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
